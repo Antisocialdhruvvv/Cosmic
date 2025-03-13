@@ -1,1 +1,52 @@
-Sample content for pages/nickname_generator.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Nickname Generator</title>
+  <link rel="stylesheet" href="../styles.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body>
+  <header>
+    <h1>Advanced Nickname Generator</h1>
+    <nav>
+      <ul>
+        <li><a href="../index.html">Home</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="nicknameSection">
+      <p>Click the button or shake your device to generate a fun, personalized nickname with its meaning!</p>
+      <button id="generateBtn">Generate Nickname</button>
+      
+      <!-- Progress Bar -->
+      <div id="nicknameProgressContainer">
+        <div id="nicknameProgressBar"></div>
+      </div>
+      
+      <!-- Nickname Display -->
+      <div id="nicknameResult"></div>
+      
+      <!-- "Why This Name?" Section -->
+      <div id="whyThisNameContainer" class="hidden">
+        <h3>Why This Name?</h3>
+        <p id="whyThisNameText"></p>
+      </div>
+
+      <!-- Nickname History with Floating Hearts -->
+      <div id="nicknameHistoryContainer">
+        <h3>Nickname History</h3>
+        <ul id="nicknameHistory"></ul>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Dhruv &amp; Samridhi</p>
+  </footer>
+
+  <script src="../script.js"></script>
+</body>
+  </html>
